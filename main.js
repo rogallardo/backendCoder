@@ -61,15 +61,3 @@ levantarServidor()
 
 
 
-/*
-const conexionServidor = aplicacion.listen(PUERTO, ()=>{    
-    console.log(`Aplicacion escuchando en el puerto: ${conexionServidor.address().port}`)
-})
-
-conexionServidor.on('error', error => console.log(`Ha ocurrido un error: ${error}`))
-let visitas= 0
-aplicacion.get('/visitas', (peticion, respuesta)=>{
-    
-    visitas++
-    respuesta.send(`La cantidad de visitas es: ${visitas}`)
-})*/
